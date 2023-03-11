@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GUI</class>
+ <widget class="QWidget" name="GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>72</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GUI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Select adoption list type: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="HTMLradioButton">
+       <property name="text">
+        <string>HTML</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="CSVradioButton">
+       <property name="text">
+        <string>CSV</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Select your mode: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="administratorButton">
+       <property name="text">
+        <string>Administrator</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="userButton">
+       <property name="text">
+        <string>User</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="seeAdoptionListButton">
+       <property name="text">
+        <string>See adoption list</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>administratorButton</sender>
+   <signal>clicked()</signal>
+   <receiver>GUI</receiver>
+   <slot>showAdminGUI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>45</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-62</x>
+     <y>16</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>userButton</sender>
+   <signal>clicked()</signal>
+   <receiver>GUI</receiver>
+   <slot>showUserGUI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>261</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>282</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>seeAdoptionListButton</sender>
+   <signal>clicked()</signal>
+   <receiver>GUI</receiver>
+   <slot>showAdoptionListGUI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>65</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>showAdminGUI()</slot>
+  <slot>showUserGUI()</slot>
+  <slot>showAdoptionListGUI()</slot>
+ </slots>
+</ui>

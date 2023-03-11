@@ -1,0 +1,9 @@
+Mastiff Tibetan,Boss,15,https://i.ytimg.com/vi/u4GK7ZAh1hY/maxresdefault.jpg
+Dalmatian,Pongo,10,https://static.wikia.nocookie.net/disney/images/3/3c/Profile_-_Pongo.png/revision/latest/scale-to-width-down/605?cb=20200504214003
+Teckel,Mura,6,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKv68g5ga_kC4vPzTi2LwFvcy6z46d0_l--EbpjAFGaB9fqZ9Q1qv3CG0KMQIVwnsmnM&usqp=CAU
+Carpathian Shepherd,Sasha,7,https://upload.wikimedia.org/wikipedia/commons/4/41/Carpatin.jpg
+Golden Retriever,Poofy,2,https://static.posters.cz/image/1300/calendar-golden-retriever-i94891.jpg
+Husky,Labus,4,https://extrucan.ro/wp-content/uploads/2021/08/Siberian-Husky.jpg
+Rottweiller,Rocky,6,https://www.animalepierdute.ro/wp-content/uploads/2019/09/Rottweiler.jpg
+Saint-Bernand,Bootus,8,https://www.monitoruldegalati.ro/media/k2/items/cache/6977e3569c5e82f8351ef994769758f5_XL.jpg
+German Shepherd,Deedee,6,https://www.thesprucepets.com/thmb/LndlJTIok9mVYGN4vlxX0dBYk_I=/1333x1000/smart/filters:no_upscale()/breed_profile_germansheperd_1118000_profile_2608-d7a78e7c1cf049879bec1ec19113ee42.jpg

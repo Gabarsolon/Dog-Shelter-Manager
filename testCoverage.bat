@@ -1,0 +1,1 @@
+OpenCppCoverage --sources a8_9 -- ./x64/Debug/a8_9.exe

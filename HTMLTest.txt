@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title><Dog adoption list></title></head><body><table border="1"><tr><td>Breed</td><td>Name</td><td>Age</td><td>Photograph Link</td></tr><tr><td>Shiba Inu</td><td>Doge</td><td>11</td><td><a href="https://tradingplatforms.com/ro/wp-content/uploads/sites/36/2021/06/dogecoin-logo.jpg">Link</a></td></tr></table></body></html>

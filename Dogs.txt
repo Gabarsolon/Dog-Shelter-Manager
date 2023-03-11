@@ -1,0 +1,4 @@
+Husky,Labus,4,https://extrucan.ro/wp-content/uploads/2021/08/Siberian-Husky.jpg
+Rottweiller,Rocky,6,https://www.animalepierdute.ro/wp-content/uploads/2019/09/Rottweiler.jpg
+Saint-Bernand,Bootus,8,https://www.monitoruldegalati.ro/media/k2/items/cache/6977e3569c5e82f8351ef994769758f5_XL.jpg
+German Shepherd,Deedee,7,https://www.thesprucepets.com/thmb/LndlJTIok9mVYGN4vlxX0dBYk_I=/1333x1000/smart/filters:no_upscale()/breed_profile_germansheperd_1118000_profile_2608-d7a78e7c1cf049879bec1ec19113ee42.jpg

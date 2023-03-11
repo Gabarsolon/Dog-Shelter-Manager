@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdministratorGUI</class>
+ <widget class="QWidget" name="AdministratorGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AdministratorGUI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Dogs:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="dogsListWidget"/>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Breed:</string>
+       </property>
+       <property name="buddy">
+        <cstring>breedLineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="breedLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Name:</string>
+       </property>
+       <property name="buddy">
+        <cstring>nameLineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="nameLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Age:</string>
+       </property>
+       <property name="buddy">
+        <cstring>ageLineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="ageLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Photograph link: </string>
+       </property>
+       <property name="buddy">
+        <cstring>linkLineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="linkLineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="updateButton">
+       <property name="text">
+        <string>Update</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="chartButton">
+       <property name="text">
+        <string>Chart</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="undoButton">
+       <property name="text">
+        <string>Undo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="redoButton">
+       <property name="text">
+        <string>Redo</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>dogsListWidget</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>updateDogLineEdits()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>addDog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>79</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>deleteButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>removeDog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>updateButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>updateDog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>chartButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>displayChart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>327</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>361</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>undoButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>undo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>383</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>47</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>redoButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdministratorGUI</receiver>
+   <slot>redo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>236</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>addDog()</slot>
+  <slot>updateDogLineEdits()</slot>
+  <slot>removeDog()</slot>
+  <slot>updateDog()</slot>
+  <slot>displayChart()</slot>
+  <slot>undo()</slot>
+  <slot>redo()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,39 @@
+[2022-05-01 22:44:32] [info] Start Program:
+Path:"./x64/Debug/a8_9.exe"
+Arguments:
+Working directory: not set.
+Modules: Selected: * Excluded: 
+Sources: Selected: a8_9 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: html 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+[2022-05-01 22:44:32] [info] Module: C:\Users\Turcu\source\repos\cs-ubbcluj-ro\a8-9-Gabarsolon\a8_9\x64\Debug\a8_9.exe is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\ntdll.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\kernel32.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\KernelBase.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\shell32.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\msvcp_win.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\ucrtbase.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\user32.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\win32u.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\gdi32.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\gdi32full.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\vcruntime140_1d.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\vcruntime140d.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\msvcp140d.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\ucrtbased.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:32] [info] Module: C:\Windows\System32\imm32.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:33] [info] Module: C:\Windows\System32\kernel.appcore.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:33] [info] Module: C:\Windows\System32\msvcrt.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:33] [info] Module: C:\Windows\System32\rpcrt4.dll is selected because it matches selected pattern: *
+[2022-05-01 22:44:33] [info] ----------------------------------------------------
+[2022-05-01 22:44:33] [info] Coverage generated in Folder C:\Users\Turcu\source\repos\cs-ubbcluj-ro\a8-9-Gabarsolon\a8_9\CoverageReport-2022-05-01-22h44m33s
+[2022-05-01 22:44:33] [info] ----------------------------------------------------
+[2022-05-01 22:44:33] [info] The code coverage report is not what you expect? See the FAQ https://github.com/OpenCppCoverage/OpenCppCoverage/wiki/FAQ.
